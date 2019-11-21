@@ -1,0 +1,13 @@
+.jumbotron {
+    min-height: 140px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: bisque;
+  }
+.float{
+    float: right;
+    padding-bottom: 20px;
+    margin-right: 6px;
+    margin-top: 15px;
+}
+  
