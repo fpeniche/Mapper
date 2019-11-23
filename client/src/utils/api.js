@@ -58,8 +58,36 @@ export default {
                 {
                     _id:2,
                     title:"SAP",
-                    description:"Logistics",
-                    area:" Purchasing",
+                    description:"Financials",
+                    area:" Controlling",
+                    fields:5
+                },
+                {
+                    _id:3,
+                    title:"OneSource",
+                    description:"Sales",
+                    area:" Sales Reps",
+                    fields:5
+                },
+                {
+                    _id:4,
+                    title:"OneSource",
+                    description:"Sales",
+                    area:" Customer Hierarchies",
+                    fields:5
+                },
+                {
+                    _id:5,
+                    title:"Hybris",
+                    description:"Cart-Quote",
+                    area:" Products",
+                    fields:5
+                },
+                {
+                    _id:6,
+                    title:"Hybris",
+                    description:"Price-Quote",
+                    area:" Customers",
                     fields:5
                 }
             ])

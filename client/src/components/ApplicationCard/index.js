@@ -11,16 +11,16 @@ class ApplicationCard extends Component
 
     render()
     {
-        return <div className="col-6 offset-3">
+        return <div className="col-6 ">
             <div className="application-card">
                 <h4><b>{this.props.title} {this.props.description}</b></h4>
                 <h6>Area: {this.props.area}
                 </h6>
                 <div className="row">
-                    <div className="col-6">
+                    <div className="col-6 ">
                         <button onClick={this.props.onMatchApp}>Match</button>
                     </div>
-                    <div className="col-6"><Link to={`/fields/${this.props.id}`}>  
+                    <div className="col-6 offset-6"><Link to={`/fields/${this.props.id}`}>  
                     {this.props.fields} fields
                     </Link></div>
 

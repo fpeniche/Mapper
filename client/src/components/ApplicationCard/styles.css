@@ -1,6 +1,7 @@
 .application-card
 {
-    padding: 20px;
+    padding: 15px;
+    margin: 3px;
     border-radius: 10px;
     box-shadow: 0px 0px 2px #000000;
 }
